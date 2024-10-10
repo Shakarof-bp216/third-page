@@ -1,0 +1,257 @@
+/* <!-- navbar Start --> */
+.navbar {
+    min-height: 100px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    position: fixed;
+}
+
+.contanier {
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar_flexbox {
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_start_bootstrap {
+    padding: 20px 0;
+}
+
+.navbar_hidden_menu {
+    display: none;
+    /* margin-right: 60px; */
+    border: 1px solid #64a19d;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+
+}
+
+.navbar_hidden_menu i {
+    margin-left: 6px;
+}
+
+.navbar_right_menu {
+    display: flex;
+    gap: 20px;
+    margin-right: 60px 0;
+
+}
+
+@media only screen and (max-width: 990px) {
+
+    .navbar_right_menu {
+        display: none;
+    }
+
+    .navbar_hidden_menu {
+        display: block;
+    }
+
+}
+
+/* <!-- navbar end --> */
+
+/* <!-- header Start --> */
+.grayscale_header {
+
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.73)),
+        url('imgs/bg-masthead.jpg');
+    min-height: 850px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.grayscale_header_contanier {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grayscale_header_text1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #a3aeb8;
+
+}
+
+.grayscale_header_text2 {
+    font-size: 25px;
+    text-align: center;
+    max-width: 600px;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+    .grayscale_header_text1 {
+        font-size: 34px;
+        text-align: center;
+        font-family: sans-serif;
+        color: #a3aeb8;
+
+    }
+
+    .grayscale_header_text2 {
+        font-size: 14px;
+        text-align: center;
+        max-width: 600px;
+        font-family: sans-serif;
+    }
+}
+
+.grayscale_header__button__contanier {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.grayscale_header__button {
+    height: 70px;
+    width: 180px;
+    background-color: #64a19d;
+    color: white;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 40px;
+    border: none;
+}
+
+.grayscale_header__button:hover {
+    background-color: #497975;
+    transition: 400ms;
+}
+
+/* <!-- header Start --> */
+
+/* <!-- bulit section Start --> */
+.bulit_section {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bulit_section_texts {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+
+
+}
+
+.bulit_section_flexbox {}
+
+
+.bulit_section_texts_top {
+    margin-bottom: 20px;
+    font-size: 33px;
+}
+
+.bulit_section_texts_bottom {
+    max-width: 650px;
+    padding: 0 10px;
+    margin: auto;
+    font-size: 22px;
+}
+
+.bulit_section__img {
+    max-width: 1044px;
+
+}
+
+/* <!-- bulit section end --> */
+
+.shoreline_section {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 120px; */
+
+}
+
+.shoreline_section_img {
+    width: 65%;
+    margin-top: 50px;
+}
+
+.shoreline_section_img img {
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .shoreline_section_img {
+        width: 505px;
+        /* margin-right: 40px; */
+        position: relative;
+    }
+
+}
+
+.shoreline_section_texts {
+    width:35%;
+    text-align: center;
+    padding-left: 25px;
+    border-left: 8px solid #64a19d;
+    color: rgb(0 0 0 / 50%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media only screen and (max-width: 990px) {
+    .shoreline_section__green_line {
+        display: none;
+        
+    }
+    .shoreline_section_texts {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 40px;
+        border-left: none;
+        margin: auto;
+
+    }
+
+    .shoreline_section_texts_bottom {
+        max-width: 900px;
+        min-height: 160px;
+    }
+
+    .shoreline_section_img {
+        width: 700px;
+    }
+}
+
+.shoreline_section__flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+.fourpictures_section{
+    min-height: 1200px;
+   
+
+}
