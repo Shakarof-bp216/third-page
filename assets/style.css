@@ -8,7 +8,7 @@
 }
 
 .contanier {
-    max-width: 70%;
+    max-width: 90%;
     width: 100%;
     margin: 0 auto;
 }
@@ -23,6 +23,7 @@
 
 .navbar_start_bootstrap {
     padding: 20px 0;
+    font-family: sans-serif;
 }
 
 .navbar_hidden_menu {
@@ -34,6 +35,7 @@
     text-align: center;
     padding: 10px 0;
     border-radius: 8px;
+    font-family: sans-serif;
 
 }
 
@@ -45,6 +47,7 @@
     display: flex;
     gap: 20px;
     margin-right: 60px 0;
+    font-family: sans-serif;
 
 }
 
@@ -208,7 +211,7 @@
 }
 
 .shoreline_section_texts {
-    width:35%;
+    width: 35%;
     text-align: center;
     padding-left: 25px;
     border-left: 8px solid #64a19d;
@@ -219,8 +222,9 @@
 @media only screen and (max-width: 990px) {
     .shoreline_section__green_line {
         display: none;
-        
+
     }
+
     .shoreline_section_texts {
         text-align: center;
         font-size: 24px;
@@ -247,11 +251,163 @@
     flex-wrap: wrap;
 }
 
+/* :fourpictures_section start */
 
+.fourpictures_section {
+    min-height: 1110px;
+}
 
+.fourpictures_section_flexbox {
+    width: 100%;
+    min-height: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-.fourpictures_section{
-    min-height: 1200px;
-   
+.fourpictures_section__carts {
+    width: 683.5px;
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
+
+.fourpictures_section__carts img {
+    width: 100%;
+    height: 100%;
+}
+
+.fourpictures_section__carts.texts {
+    max-width: 450px;
+    min-height: 200px;
+    margin-top: 45px;
+}
+
+/* @media only screen and (max-width: 990px) {
+    .fourpictures_section__carts {
+        width: 683.5px;
+        height: 250px;
+    }
+} */
+
+
+
+/* :fourpictures_section end */
+
+/* email section :start */
+.email_section {
+   background-size: cover;
+   background-position: center;
+   background-image:
+   linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+   url('imgs/bg-signup.jpg');
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: scroll;
+
+}
+
+.email_section__flexbox {
+    display: flex;
+    align-items: center;
+}
+
+.email_section__center {}
+
+.email_section__center__text {
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.email_section__center__text i {
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.email_section__center__information {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.email_section__center__information {
+    margin-top: 60px;
+}
+
+.email_section__center__information form {
+    width: 80%;
+}
+
+
+
+.email_section__center__form {
+    min-height: 60px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+
+
+}
+
+.email_section__center__information__notify {
+    height: 60px;
+    width: 20%;
+    border: none;
+    border-radius: 8px;
+    background-color: #64a19d;
+    opacity: 0.8;
+    color: white;
+
+}
+
+/* email section :end */
+
+
+/* footer :start */
+.end_of_page{
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.end_of_page__flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.end_of_page_boxs{
+    height: 250px;
+    width: 33,33333333333333%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-bottom: 6px solid #64a19d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+
+/* footer :end */
